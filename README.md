@@ -20,6 +20,10 @@ pnpm lint
 
 pnpm format
 
+pnpm test
+
+pnpm test:e2e
+
 pmpm build
 ```
 
@@ -35,3 +39,4 @@ This boilerplate uses the following technologies:
 - [Jest](https://jestjs.io/)
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Playwright](https://playwright.dev/)
