@@ -39,11 +39,13 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       - name: Install 🔧
         run: pnpm install
-      - name: Format 🔧
+      - name: Format 🔍
         run: |
           pnpm lint
           pnpm format
-      - name: Build 🔧
+      - name: Test ✅
+        run: pnpm test
+      - name: Build ⚙️
         run: pnpm build
       - name: Setup Pages
         uses: actions/configure-pages@v3
