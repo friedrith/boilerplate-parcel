@@ -1,6 +1,6 @@
 # Boilerplate-parcel
 
-![build status](https://img.shields.io/github/actions/workflow/status/friedrith/boilerplate-parcel/validate)
+![build status](https://img.shields.io/github/actions/workflow/status/friedrith/boilerplate-parcel/validate.yml)
 ![version](https://img.shields.io/github/package-json/v/friedrith/boilerplate-parcel)
 
 A 2024 boilerplate for React+Tailwind applications using Parcel.
