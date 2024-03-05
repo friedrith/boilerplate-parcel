@@ -29,6 +29,10 @@ pnpm commitlint # check commit messages
 pmpm build
 ```
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Technologies
 
 This boilerplate uses the following technologies:
