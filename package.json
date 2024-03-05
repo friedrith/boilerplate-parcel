@@ -6,19 +6,37 @@
   "scripts": {
     "dev": "parcel",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "build": "parcel build --public-url ./"
+    "build": "parcel build --public-url ./",
+    "format": "prettier --check ."
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "eslintIgnore": [
+    "dist",
+    "node_modules"
+  ],
   "devDependencies": {
     "@types/node": "^20.5.9",
     "@types/react": "^18.2.16",
     "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
     "autoprefixer": "^10.4.14",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-parcel": "^1.10.6",
+    "eslint-plugin-i18n-json": "^4.0.0",
+    "eslint-plugin-i18next": "next",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-sonarjs": "^0.19.0",
     "parcel": "^2.9.3",
     "postcss": "^8.4.27",
+    "prettier": "^3.2.5",
     "process": "^0.11.10",
     "tailwindcss": "^3.3.3"
   },

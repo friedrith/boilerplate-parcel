@@ -41,6 +41,7 @@ module.exports = {
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'i18n-json/sorted-keys': 'off',
     'i18n-json/valid-message-syntax': 'off',
+    'i18next/no-literal-string': 'off',
     'i18n-json/identical-keys': [
       2,
       {
