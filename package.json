@@ -9,7 +9,8 @@
     "build": "parcel build --public-url ./",
     "format": "prettier --check .",
     "test": "jest",
-    "test:e2e": "pnpm playwright test"
+    "test:e2e": "pnpm playwright test",
+    "commitlint": "commitlint --from=7933a6da056e3492e75d016e4d08e5dbd36127b7"
   },
   "type": "module",
   "keywords": [],
@@ -17,6 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "@axe-core/playwright": "^4.8.5",
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
     "@eslint/js": "^8.57.0",
     "@playwright/test": "^1.42.1",
     "@testing-library/jest-dom": "^6.4.2",

@@ -24,6 +24,8 @@ pnpm test
 
 pnpm test:e2e
 
+pnpm commitlint # check commit messages
+
 pmpm build
 ```
 
@@ -40,3 +42,8 @@ This boilerplate uses the following technologies:
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Playwright](https://playwright.dev/)
+
+## Roadmap
+
+- [ ] commitlint
+- [ ] storybook
