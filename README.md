@@ -42,8 +42,4 @@ This boilerplate uses the following technologies:
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Playwright](https://playwright.dev/)
-
-## Roadmap
-
-- [ ] commitlint
-- [ ] storybook
+- [I18next](https://www.i18next.com/)
