@@ -1,6 +1,6 @@
 # Boilerplate-parcel
 
-![example workflow](https://github.com/friedrith/boilerplate-parcel/actions/workflows/validate.yml/badge.svg)
+![build status](https://img.shields.io/github/actions/workflow/status/friedrith/boilerplate-parcel/validate)
 ![version](https://img.shields.io/github/package-json/v/friedrith/boilerplate-parcel)
 
 A 2024 boilerplate for React+Tailwind applications using Parcel.

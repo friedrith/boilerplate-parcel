@@ -1,7 +1,12 @@
+import Hello from './features/Hello'
+
 export default function App() {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      Hello world
+      <main>
+        <h1>Title</h1>
+        <Hello title="Hello World" />
+      </main>
     </div>
   )
 }
