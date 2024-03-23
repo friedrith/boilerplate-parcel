@@ -1,5 +1,5 @@
 import Hello from './components/Hello'
-import LanguageSwitcher from '../../components/LanguageSwitcher'
+import LanguageSwitcher from '../../components/organisms/LanguageSwitcher'
 
 export default function LandingPage() {
   const user = {

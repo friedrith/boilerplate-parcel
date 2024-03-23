@@ -5,7 +5,7 @@ describe('Hello', () => {
   it('should render title', () => {
     const title = 'Hello, World!'
 
-    render(<Hello title={title} />)
+    render(<Hello user={title} />)
 
     expect(screen.queryByText(title)).toBeInTheDocument()
   })
