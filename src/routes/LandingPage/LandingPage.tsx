@@ -1,9 +1,12 @@
 import Hello from './components/Hello'
 import LanguageSwitcher from '../../components/LanguageSwitcher'
-import { useTranslation } from 'react-i18next'
 
 export default function LandingPage() {
-  const { t } = useTranslation()
+  const user = {
+    id: '1',
+    name: 'John Doe',
+    email: 'foo.bar@baz.com',
+  }
 
   return (
     <div>
@@ -11,7 +14,7 @@ export default function LandingPage() {
       <div className="h-screen flex items-center justify-center">
         <main>
           <h1>Title</h1>
-          <Hello title={t('hello')} />
+          <Hello user={user} />
         </main>
       </div>
     </div>
