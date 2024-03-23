@@ -1,10 +1,12 @@
 import Hello from './components/Hello'
 import LanguageSwitcher from '../../components/organisms/LanguageSwitcher'
+import User from '~/src/types/User'
 
 export default function LandingPage() {
-  const user = {
+  const user: User = {
     id: '1',
-    name: 'John Doe',
+    firstName: 'John',
+    lastName: 'Doe',
     email: 'foo.bar@baz.com',
   }
 

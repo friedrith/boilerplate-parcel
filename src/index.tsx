@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import './style.css'
 
-import './utils/services/i18n'
+import './utils/services/translation/i18n'
 
 const container = document.getElementById('app')
 if (!container) throw new Error('Failed to find the root element')

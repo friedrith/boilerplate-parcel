@@ -1,10 +1,13 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import LanguageSwitcher from '..'
+import mockWrapper from '~/src/__mocks__/mockWrapper'
 
-describe('LanguageSwitcher', () => [
+describe('LanguageSwitcher', () => {
   it('should render', () => {
-    const { container } = render(<LanguageSwitcher />)
+    const wrapper = mockWrapper().withI18n().build()
 
-    expect(container).toMatchSnapshot()
-  }),
-])
+    render(<LanguageSwitcher />, { wrapper })
+
+    expect(screen.queryByText('English')).toBeInTheDocument()
+  })
+})
