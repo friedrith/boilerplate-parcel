@@ -47,3 +47,4 @@ This boilerplate uses the following technologies:
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Playwright](https://playwright.dev/)
 - [I18next](https://www.i18next.com/)
+- [Testing Library](https://testing-library.com/)
