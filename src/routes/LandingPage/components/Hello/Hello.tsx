@@ -13,7 +13,7 @@ export default function Hello({ user }: HelloProps) {
     <div className="min-h-screen flex items-center justify-center">
       <div>
         <h1>{t('hello')}</h1>
-        {/* <PrettyUserName user={user} /> */}
+        <PrettyUserName user={user} />
       </div>
     </div>
   )
