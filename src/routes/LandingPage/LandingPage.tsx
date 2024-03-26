@@ -12,7 +12,9 @@ export default function LandingPage() {
 
   return (
     <div>
-      <LanguageSwitcher />
+      <header>
+        <LanguageSwitcher />
+      </header>
       <div className="h-screen flex items-center justify-center">
         <main>
           <h1>Title</h1>
