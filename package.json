@@ -61,8 +61,8 @@
     "i18next": "^23.10.0",
     "i18next-browser-languagedetector": "^7.2.0",
     "i18next-http-backend": "^2.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "19.0.0-beta-04b058868c-20240508",
+    "react-dom": "19.0.0-beta-04b058868c-20240508",
     "react-i18next": "^14.0.5",
     "react-router-dom": "^6.22.2",
     "typescript-eslint": "^7.1.1"
