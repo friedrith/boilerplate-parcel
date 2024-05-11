@@ -29,8 +29,8 @@
     "@types/dom-screen-wake-lock": "^1.0.3",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.5.9",
-    "@types/react": "^18.2.16",
-    "@types/react-dom": "^18.2.7",
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "^10.4.14",
@@ -65,7 +65,13 @@
     "react-dom": "19.0.0-beta-04b058868c-20240508",
     "react-i18next": "^14.0.5",
     "react-router-dom": "^6.22.2",
+    "types-react": "19.0.0-beta.1",
+    "types-react-dom": "19.0.0-beta.1",
     "typescript-eslint": "^7.1.1"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta"
   },
   "staticFiles": {
     "staticPath": "public"

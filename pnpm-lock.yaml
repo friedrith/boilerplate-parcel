@@ -32,6 +32,12 @@ importers:
       react-router-dom:
         specifier: ^6.22.2
         version: 6.22.2(react-dom@19.0.0-beta-04b058868c-20240508(react@19.0.0-beta-04b058868c-20240508))(react@19.0.0-beta-04b058868c-20240508)
+      types-react:
+        specifier: 19.0.0-beta.1
+        version: 19.0.0-beta.1
+      types-react-dom:
+        specifier: 19.0.0-beta.1
+        version: 19.0.0-beta.1
       typescript-eslint:
         specifier: ^7.1.1
         version: 7.1.1(eslint@8.57.0)(typescript@5.3.3)
@@ -3897,6 +3903,12 @@ packages:
   typed-array-length@1.0.5:
     resolution: {integrity: sha512-yMi0PlwuznKHxKmcpoOdeLwxBoVPkqZxd7q2FgMkmD3bNwvF5VW0+UlUQ1k1vmktTu4Yu13Q0RIxEP8+B+wloA==}
     engines: {node: '>= 0.4'}
+
+  types-react-dom@19.0.0-beta.1:
+    resolution: {integrity: sha512-fXQfv6OQOXxmgNQ7RuhX615Wx4680LqVbrEbxch+ZQ56ZDAZKXptLl3XoHaHU31Yd2xiig/VlXzohCexKXNzBQ==}
+
+  types-react@19.0.0-beta.1:
+    resolution: {integrity: sha512-gQpuPdi+Gu+nIFmhnFLINkGQ4j0eRY7olV3lzncFJy2g5TfnSEFD1xU86u5KgRytFswwZ5pGEPWEizefwPaxTw==}
 
   typescript-eslint@7.1.1:
     resolution: {integrity: sha512-vScnjSkm0pjZqySB5o8ZbfywfGWamVOqIGtJeOnUuDDGFaGKwMqdZWVa7EYKBnLCUSuwD8MN2a2ur9OgaKu6Tg==}
@@ -8726,6 +8738,14 @@ snapshots:
       has-proto: 1.0.3
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
+
+  types-react-dom@19.0.0-beta.1:
+    dependencies:
+      '@types/react': 18.2.16
+
+  types-react@19.0.0-beta.1:
+    dependencies:
+      csstype: 3.1.2
 
   typescript-eslint@7.1.1(eslint@8.57.0)(typescript@5.3.3):
     dependencies:
