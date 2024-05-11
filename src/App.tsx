@@ -7,6 +7,7 @@ import RefPage from './routes/RefPage'
 import UsePage from './routes/UsePage'
 import UseTransitionPage from './routes/UseTransitionPage'
 import UseActionStatePage from './routes/UseActionStatePage'
+import UseOptimisticPage from './routes/UseOptimisticPage/UseOptimisticPage'
 
 export default function App() {
   const { i18n } = useTranslation()
@@ -23,6 +24,7 @@ export default function App() {
       <Route path="/use" element={<UsePage />} />
       <Route path="/useTransition" element={<UseTransitionPage />} />
       <Route path="/useActionState" element={<UseActionStatePage />} />
+      <Route path="/useOptimistic" element={<UseOptimisticPage />} />
     </Routes>
   )
 }
